@@ -5,3 +5,4 @@ You can find:
 - A way of choosing a random episode of How I Met Your Mother
 - Modelling a farm with OOP
 - Mini Budget using OOP
+- Code that checks algebraic groups
