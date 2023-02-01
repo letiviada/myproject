@@ -1,3 +1,4 @@
+#!/usr/local/bin/python3
 import tkinter as tk
 import webbrowser
 import random
