@@ -7,4 +7,4 @@ You can find:
 - Mini Budget using OOP
 - Code that checks algebraic groups
 - A button that increases and decreases values
-
+- Some games I found to start learning how to code computer games using pygame
