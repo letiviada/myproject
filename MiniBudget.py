@@ -28,3 +28,25 @@ print(df["description"].sum())
 df["description_times_two"] = df["description"]*2
 df["description power of two"] = df["description"].apply(lambda x: x**2)
 print(df)
+
+starting_amount = float(input("Enter your starting amount: £"))
+exp=[]
+print("Enter your expenses and type Done when finished")
+while True:
+  expenses=input("Enter your expenses: ")
+  if expenses=="Done":
+    break
+  number=float(expenses)
+  exp.append(number)
+you_spent = sum(exp)
+remaining = starting_amount - you_spent
+
+print("You started with £" + str(starting_amount))
+print("You spent £" + str(you_spent))
+print("Remaining £" + str(remaining))
+
+if remaining > 0:
+  print ("You were £" + str(remaining) + "underbudget")
+else:
+  print ("You overspend £" + str(abs(remaining)))
+
