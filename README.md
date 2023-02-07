@@ -8,3 +8,4 @@ You can find:
 - Code that checks algebraic groups
 - A button that increases and decreases values
 - Some games I found to start learning how to code computer games using pygame
+- A calculator using PyQT
